@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Orderpage">
+
+    <TextView
+        android:id="@+id/verifytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="488dp"
+        android:gravity="center_horizontal"
+        android:background="@android:color/darker_gray"
+        android:text="VERIFY ORDER"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/randomtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="454dp"
+        android:gravity="center_horizontal"
+        android:text="Enter the otp sent to your mobile to verify order"
+        android:textSize="17sp" />
+
+
+
+
+    <TextView
+        android:id="@+id/ordernumbertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:layout_marginBottom="377dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    android:text="Customer Order Number :" />
+    <TextView
+        android:id="@+id/phonenumbertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:layout_marginBottom="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Customer Phone Number :" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="323dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Customer Name :" />
+
+    <Button
+        android:id="@+id/buttonotp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#E28905"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="222dp"
+        android:text="Sent OTP" />
+
+
+
+
+</RelativeLayout>

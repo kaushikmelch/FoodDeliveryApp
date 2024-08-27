@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Confirmationpage">
+
+    <TextView
+        android:id="@+id/verifytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="650dp"
+        android:gravity="center_horizontal"
+        android:background="@android:color/darker_gray"
+        android:text="Booking Details"
+        android:textSize="30sp" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/randomtext"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:layout_marginBottom="600dp"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="Enter the otp sent to your mobile to verify order"-->
+<!--        android:textSize="17sp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/otpverify"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="357dp"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:layout_marginRight="20dp"-->
+    <!--        android:inputType="number"-->
+    <!--        android:hint="Enter OTP">-->
+
+    <!--    </EditText>-->
+
+
+
+
+    <TextView
+        android:id="@+id/ordernumbertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:layout_marginBottom="550dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="20dp"
+        android:text="Order Number :" />
+    <TextView
+        android:id="@+id/phonenumbertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:layout_marginBottom="523dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Customer Phone Number :" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+
+        android:textSize="17dp"
+        android:layout_marginBottom="496dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Customer Name :" />
+
+
+    <TextView
+        android:id="@+id/smalltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:layout_marginBottom="470dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Small Packets :" />
+
+
+    <TextView
+        android:id="@+id/mediumtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:layout_marginBottom="443dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Medium Packets :" />
+
+    <TextView
+        android:id="@+id/largetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="416dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Large Packets :" />
+
+    <TextView
+        android:id="@+id/totalcosttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:layout_marginBottom="389dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Total Cost :" />
+
+
+    <Button
+        android:id="@+id/showlocation"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginEnd="106dp"
+        android:background="#E28905"
+        android:layout_marginRight="106dp"
+        android:layout_marginBottom="201dp"
+        android:text="Navigation" />
+
+    <Button
+        android:id="@+id/completeorder"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#E28905"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="138dp"
+        android:text="Complete Delivery">
+
+    </Button>
+
+
+</RelativeLayout>

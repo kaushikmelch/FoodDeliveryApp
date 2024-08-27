@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "38364729797",
+    "firebase_url": "https://foodsetgo-4dd9e.firebaseio.com",
+    "project_id": "foodsetgo-4dd9e",
+    "storage_bucket": "foodsetgo-4dd9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38364729797:android:1dcdc49f13e453759c7bac",
+        "android_client_info": {
+          "package_name": "com.example.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38364729797-r5fmkpu5lab17st81mnm00q3faui4mno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auth",
+            "certificate_hash": "0ca1e998bef9234dd795407cb0707e65d891e0ae"
+          }
+        },
+        {
+          "client_id": "38364729797-ql9cbvivufimmm4vitudf98qnhn42npo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJzlxFl-hbGCZFvIDkSr3T1fft28McnJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38364729797-ql9cbvivufimmm4vitudf98qnhn42npo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38364729797:android:722f63fb444300499c7bac",
+        "android_client_info": {
+          "package_name": "com.example.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38364729797-ql9cbvivufimmm4vitudf98qnhn42npo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJzlxFl-hbGCZFvIDkSr3T1fft28McnJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38364729797-ql9cbvivufimmm4vitudf98qnhn42npo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
